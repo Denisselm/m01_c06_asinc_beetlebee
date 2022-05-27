@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--cdn-->
+    <!--cdn font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <!--cdn bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--link a mis estilos-->
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio con Bootstrap</title>
+</head>
+
+<body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="">Beetle Bee </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Especies Nativas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--carrusel-->
+    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/canthigaster-cicada-fulgoromorpha-insect-proboscis-52967.jpeg" class="d-block  img-carousel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/pexels-photo-109232.jpeg" class="d-block  img-carousel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/spider-macro-zebra-spider-insect-40795.jpeg" class="d-block img-carousel" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--card-->
+    <div class="container-card d-none d-none d-lg-block col-lg-12">
+        <div class="card" style="width: 38rem;">
+            <img src="https://images.pexels.com/photos/460788/pexels-photo-460788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Insectos Asombrosos</h5>
+                <p class="card-text">Conoce la informacion de nuestras especies de la semana</p>
+            </div>
+            <ul class="list-group list-group-flush card-list">
+                <li class="list-group-item">Especies</li>
+                <li class="list-group-item">Habitat</li>
+                <li class="list-group-item">Geografia</li>
+            </ul>
+            <div class="card-body">
+                <a href="https://es.wikipedia.org/wiki/Mantis_religiosa" class="card-link">Mantis Religiosa</a>
+                <a href="https://es.wikipedia.org/wiki/Charidotella_sexpunctata" class="card-link">Escarabajo de oro</a>
+            </div>
+        </div>
+    </div>
+    <!--columnas-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="columna">
+                    <h2>Suscríbete</h2>
+                    <div class="form">
+                        <label>Nombre:</label>
+                        <input type="text" required placeholder="Ingresa tu Nombre">
+                    </div>
+                    <div class="form">
+                        <label>Correo:</label>
+                        <input type="email" required placeholder="Ingresa tu Correo">
+                    </div>
+                    <div class="form">
+                        <label>Contraseña:</label>
+                        <input type="password" required placeholder="Crea tu Contraseña">
+                    </div>
+                    <div>
+                        <h3>Deja tus sugerencias</h3>
+                        <textarea cols="30" rows="10">máximo 300 caracteres</textarea>
+                        <div>
+                            <button>enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-none d-lg-block col-lg-4">
+                <div class="columna">
+                    <img src="./img/ladybug-beetle-coccinellidae-insect-121472.jpeg" alt="" class="columna-2">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="columna column-article">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae accusantium eligendi voluptatum libero, quod veritatis placeat deleniti fugiat aliquid ad quisquam, aperiam neque quo eaque vero non repellat reprehenderit. Recusandae, voluptatum
+                    debitis repellendus amet nam nisi asperiores sint veniam consequatur quod ad, harum, cupiditate placeat dicta quas beatae! Quibusdam libero hic optio quasi voluptatibus amet, perferendis rem esse error? Qui explicabo nemo eveniet architecto
+                    repellat reprehenderit aliquid voluptatum eius inventore voluptates fugit temporibus libero impedit laudantium quaerat, error earum nulla sequi eaque expedita praesentium veritatis? Quo, quisquam! Ipsam, veniam? Dignissimos libero
+                    ducimus nisi dolorem molestiae maiores eius porro sed provident non itaque beatae, culpa soluta et at maxime praesentium nostrum. Debitis unde commodi dolores similique.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <a class="link-contact" href="http://www.insectachile.cl/">
+            <h4>Contacto</h4>
+    </footer>
+</body>
+
+</html>

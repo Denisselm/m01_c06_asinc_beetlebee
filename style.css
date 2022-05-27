@@ -1,0 +1,133 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Oswald', sans-serif;
+            background-image: url(https://thumbs.dreamstime.com/b/sunshine-photo-grass-field-concept-summer-soft-wallpaper-image-sunshine-photo-grass-field-soft-wallpaper-132150150.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+        
+        #nav {
+            height: 4.375rem;
+            background-color: rgba(130, 212, 97, 0.633);
+        }
+        
+        .navbar-brand {
+            font-size: 2.188rem;
+            margin-left: 1.875rem;
+            text-shadow: 3px 3px 5px green;
+        }
+        
+        .nav-link {
+            font-size: 1.563rem;
+            margin-right: 1.875rem;
+        }
+        
+        .img-carousel {
+            width: 100%;
+            height: 58rem;
+        }
+        
+        .container-card {
+            margin: 100px 0 0 700px;
+        }
+        
+        .card {
+            background-color: rgba(130, 212, 97, 0.446);
+        }
+        
+        h5 {
+            font-size: 1.875rem;
+            text-align: center;
+        }
+        
+        p {
+            font-size: 1.563rem;
+        }
+        
+        .card-list {
+            font-size: 1.25rem;
+        }
+        
+        .card-link {
+            font-size: 1.25rem;
+            text-align: center;
+        }
+        
+        .container {
+            margin-top: 2.5rem;
+        }
+        
+        .columna {
+            width: 25rem;
+            height: 37.5rem;
+            background-color: rgba(130, 212, 97, 0.446);
+            margin-bottom: 1.875rem;
+        }
+        
+        .columna-2 {
+            width: 25rem;
+            height: 21.875rem;
+            margin-top: 7.813rem;
+        }
+        
+        h2 {
+            text-align: center;
+            padding-top: 1.875rem;
+            padding-bottom: 1.875rem;
+        }
+        
+        label,
+        imput {
+            width: 10.625rem;
+            height: 3.75rem;
+            margin-left: 1.875rem;
+            font-size: 1.25rem;
+        }
+        
+        textarea {
+            margin-left: 5.625rem;
+            background-color: rgba(130, 212, 97, 0.125);
+            border: 2px solid green;
+            height: 12.5rem;
+        }
+        
+        button {
+            margin: 20px 40px 30px 305px;
+            background-color: rgb(178, 220, 178);
+            width: 4.375rem;
+            font-size: 1.313rem;
+        }
+        
+        h3 {
+            text-align: center;
+            font-size: 1.875rem;
+        }
+        
+        .column-article {
+            padding-top: 2.5rem;
+            font-size: 1.125rem;
+            padding-left: 0.625rem;
+        }
+        
+        footer {
+            background-color: rgba(130, 212, 97, 0.633);
+            height: 3.75rem;
+            text-align: center;
+        }
+        
+        h4 {
+            font-size: 2.5rem;
+            width: auto;
+        }
+        
+        .list-group-item {
+            background-color: rgba(251, 8, 8, 0.161);
+            font-size: 1.563rem;
+            text-align: center;
+        }
